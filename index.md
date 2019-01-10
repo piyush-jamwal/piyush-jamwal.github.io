@@ -57,5 +57,3 @@ I am a post graduate student in Biotechnology with area of interests in Bioinfor
      </tr>
   </tbody>
 </table>
-
-{% include research.dissert.html %}
