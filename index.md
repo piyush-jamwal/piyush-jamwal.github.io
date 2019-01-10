@@ -1,4 +1,4 @@
-<h6>Bioinformatics complementary sequence tool [here](./tool.html) <span class="badge badge-secondary">New</span></h6>
+<h6><span class="badge badge-secondary">New</span> <a href="./tool.html">Bioinformatics complementary sequence tool</a></h6>
 
 ## About
 
