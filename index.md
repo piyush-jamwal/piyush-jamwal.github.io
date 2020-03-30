@@ -2,7 +2,7 @@
 
 ## About
 
-I am a post graduate student in Biotechnology with area of interests in Bioinformatics , Cancer and it’s therapy, Animal cell culture ,Immunology and it’s application in terms of cancer, And Biosensors.
+I am a post graduate student in Biotechnology with area of interests in Molecular medicine, Bioinformatics, Cancer and it’s therapy, Animal cell culture ,Immunology and it’s application in terms of cancer and Biosensors.
 
 ## Achievements
 
