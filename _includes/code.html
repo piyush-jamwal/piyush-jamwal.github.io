@@ -1,78 +1,72 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <style>
-        #form{margin:50px 200px;};
-        textarea{size: 30px;}
-        body{margin:50px};
-        iframe{size: 900px};
+      #form {
+        margin: 50px 200px;
+      }
+      textarea {
+        size: 30px;
+      }
+      body {
+        margin: 50px;
+      }
     </style>
 
     <title>Title</title>
-</head>
-<body>
-<h1>Bioinformatics complementary sequence tool</h1>
-<div id="form">
-    <form action="#">
-        <textarea id="ta" placeholder="WRITE SEQUENCE HERE" ></textarea>
+  </head>
+  <body>
+    <h1>Bioinformatics complementary sequence tool</h1>
+    <div id="form">
+      <form action="#">
+        <textarea id="ta" placeholder="WRITE SEQUENCE HERE"></textarea>
 
         <div>
-            <input type="submit" id="but" onclick="tx()"/>
+          <input type="submit" id="but" onclick="tx()" />
         </div>
-    </form>
-</div>
-<iframe src="none" name="a"></iframe>
-<a href="http://www.duckduckgo.com" target="a">google </a>
-<iframe src="http://www.duckduckgo.com"></iframe>
+      </form>
+    </div>
 
-<script>
-    var txt,txt2;
-    var ar = [];
-    var ele=document.createElement("div");
-    var par=document.getElementById("form");
-    function tx() {
+    <script>
+      var txt, txt2;
+      var ar = [];
+      var ele = document.createElement("div");
+      var par = document.getElementById("form");
+      function tx() {
         txt = document.getElementById("ta").value.toUpperCase();
 
         for (let b in txt) {
-            ar[b] = txt[b];
-
-        };
+          ar[b] = txt[b];
+        }
         for (let a in ar) {
-            if (ar[a] === "A") {
-                //txt.replace(txt,"T",a);
-                ar[a] = "T";
-                console.log("instead of A it's " + ar[a]);
-            } else if (ar[a] === "T") {
-
-                ar[a] = "A";
-                console.log("instead of T it's " + ar[a]);
-            } else if (ar[a] === "G") {
-                ar[a] = "C";
-                console.log("instead of G it's " + ar[a]);
-            } else if (ar[a] === "C") {
-
-                ar[a] = "G";
-                console.log("instead of C it's " + ar[a]);
-            }else if (ar[a] === "U") {
-                ar[a] = "A";
-                console.log("instead of U it's " + ar[a]);
-            }else {
-                console.log("LETTER OUT OF A,T,G,C at position" + a);
-            }
-            ;
-            //console.log(ar);
-
+          if (ar[a] === "A") {
+            //txt.replace(txt,"T",a);
+            ar[a] = "T";
+            console.log("instead of A it's " + ar[a]);
+          } else if (ar[a] === "T") {
+            ar[a] = "A";
+            console.log("instead of T it's " + ar[a]);
+          } else if (ar[a] === "G") {
+            ar[a] = "C";
+            console.log("instead of G it's " + ar[a]);
+          } else if (ar[a] === "C") {
+            ar[a] = "G";
+            console.log("instead of C it's " + ar[a]);
+          } else if (ar[a] === "U") {
+            ar[a] = "A";
+            console.log("instead of U it's " + ar[a]);
+          } else {
+            console.log("LETTER OUT OF A,T,G,C at position" + a);
+          }
+          //console.log(ar);
         }
         print();
-    };
+      }
 
-
-    function print() {
-        ele.innerHTML=ar.join('');
+      function print() {
+        ele.innerHTML = ar.join("");
         par.appendChild(ele);
-    }
-
-
-
-</script>
-</body>
+      }
+    </script>
+  </body>
+</html>
