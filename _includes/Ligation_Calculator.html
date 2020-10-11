@@ -1,12 +1,65 @@
 <html lang="en">
-<head>Ligation Calculator
-</head>
-  <div>
-    <div>
-  Vector size (in bp) <input type="text" name="Vector size should be in base pairs"/>
-  </div>
-    <div>
-  Insert size (in bp) <input type="text" name="Insert size should be in base pairs"/>
-  </div>
+  <head>
+    <h2>Ligation Calculator</h2>
+  </head>
+  <body>
+    <div id="form">
+      <div>
+        Vector size (in bp)
+        <input
+          type="text"
+          placeholder="Vector size in base pairs"
+          id="VecSiz"
+        />
+      </div>
+      <div>
+        Insert size (in bp)
+        <input
+          type="text"
+          placeholder="Insert size in base pairs"
+          id="InsSiz"
+        />
+      </div>
+      <div>
+        Amount of Vector taken (in nanograms)
+        <input type="text" placeholder="Vector taken in ng" id="VecAmo" />
+      </div>
+      <div>
+        Insert to Vector ratio
+        <input type="text" placeholder="Insert " id="Ins" />:<input
+          type="text"
+          placeholder="Vector "
+          id="Vec"
+        />
+      </div>
+      <div>
+        <input type="submit" value=" Calculate " onclick="action()" />
+        <input type="button" value=" Reset " onclick="reset()" />
+      </div>
+      <script>
+        let ele = document.createElement("div");
+        let form = document.getElementById("form");
+
+        function action() {
+          let insSiz = document.getElementById("InsSiz").value;
+          let vecSiz = document.getElementById("VecSiz").value;
+          let insRat = document.getElementById("Ins").value;
+          let vecRat = document.getElementById("Vec").value;
+          let vecAmo = document.getElementById("VecAmo").value;
+          let insAmo = (insSiz / vecSiz) * (insRat / vecRat) * vecAmo;
+          ele.innerHTML = "Amount of insert taken is:" + insAmo;
+          form.appendChild(ele);
+        }
+        function reset() {
+          document.getElementById("InsSiz").value = "";
+          document.getElementById("VecSiz").value = "";
+          document.getElementById("Ins").value = "";
+          document.getElementById("Vec").value = "";
+          document.getElementById("VecAmo").value = "";
+          document.getElementById("form").value = "";
+          ele.parentNode.removeChild(ele);
+        }
+      </script>
     </div>
+  </body>
 </html>
