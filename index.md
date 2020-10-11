@@ -1,5 +1,5 @@
 <h6><span class="badge badge-secondary">New</span> <a href="./tool.html">Bioinformatics complementary sequence tool</a></h6>
-<h6><span class="badge badge-secondary">New</span> <a href="./_includes/Ligation_Calculator.html">Bioinformatics Ligation Calculator</a></h6>
+<h6><span class="badge badge-secondary">New</span> <a href="./Ligation_Calculator.html">Bioinformatics Ligation Calculator</a></h6>
 ## About
 
 I am a post graduate student in Biotechnology with area of interests in Molecular medicine, Bioinformatics, Cancer and it’s therapy, Animal cell culture ,Immunology and it’s application in terms of cancer and Biosensors.
