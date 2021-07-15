@@ -2,7 +2,8 @@
 <h6><span class="badge badge-secondary">New</span> <a href="./tool2.html">Bioinformatics Ligation Calculator</a></h6>
 ## About
 
-I am a post graduate student in Biotechnology with area of interests in Molecular medicine, Bioinformatics, Cancer and it’s therapy, Animal cell culture ,Immunology and it’s application in terms of cancer and Biosensors.
+* I am a post graduate student in Biotechnology with area of interests in Molecular medicine, Bioinformatics, Cancer and it’s therapy, Animal cell culture ,Immunology and it’s application in terms of cancer and Biosensors.
+* In addition to this I am a freelancer having speciality in android and web development.
 
 ## Achievements
 
@@ -29,7 +30,7 @@ I am a post graduate student in Biotechnology with area of interests in Molecula
 <span class="badge badge-secondary">Computer skills</span>
 
 * Programming 
-    * Javascript, CSS, HTML, MSQL
+    * Javascript, React- native, React Js, CSS, HTML, MSQL, Git
 * OS
     * Windows/Linux/Mac OS
 
