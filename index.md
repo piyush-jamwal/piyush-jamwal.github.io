@@ -13,14 +13,18 @@
 * COVID gene coloning Project
 * Membrane Processes for Water, Food and Biotech Applications
 * Crustacean taxonomy with Special reference to Prawn
+
+
 ## Exams Qualified
 * IIT JAM (2018)
 * TIFR (2019,2020)
-* GATE (2020) 
+* GATE (2020)
+
+
 ## Positions 
  * Front-end developer in DataGrids software ( 2 months)
  * Project assistant at Council for Scientific and Industrial Research Integrative Institute of medicine Jammu (CSIR IIIM Jammu 1 yaer). 
-## PUBLICATIONS
+
 
 
 ## Skills
