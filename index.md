@@ -13,7 +13,7 @@
 * COVID gene coloning Project
 * Membrane Processes for Water, Food and Biotech Applications
 * Crustacean taxonomy with Special reference to Prawn
-## EXAM QUALIFIED
+## Exams Qualified
 * IIT JAM (2018)
 * TIFR (2019,2020)
 * GATE (2020) 
