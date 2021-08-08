@@ -8,26 +8,39 @@
 * In addition to this I am a freelancer having speciality in android and web development.
 
 ## Achievements
-
+* Contributed in COVID testing (from collection of samples to setting up of PCR reaction)
+* COVID diagnosis kit development
+* COVID gene coloning Project
 * Membrane Processes for Water, Food and Biotech Applications
 * Crustacean taxonomy with Special reference to Prawn
+## EXAM QUALIFIED
+* IIT JAM (2018)
+* TIFR (2019,2020)
+* GATE (2020) 
+## Positions 
+ * Front-end developer in DataGrids software ( 2 months)
+ * Project assistant at Council for Scientific and Industrial Research Integrative Institute of medicine Jammu (CSIR IIIM Jammu 1 yaer). 
 
 ## Skills
 
 <span class="badge badge-secondary">Lab skills</span>
 
 * DNA/ RNA isolation (purity test)
-* PCR 
-* Gel electrophoresis
+* rt-PCR/ PCR 
+* Cell transformation (BL21 and DH5A)
+* Gene cloning
+* SDS-PAGE
+* compound purification using Chromatogrphy
+* DNA Gel electrophoresis
 * Bacterial culturing techniques,
 * Immunological Assays(Quantitative and qualitative)
 * Permanent slide preparation
 * Gram, Acid fast staining Plant tissue culturing
 * Animal tissue culturing
-* Carbohydrate
+* Carbohydrate estimation
 * amino acid estimation
 * protein extraction using ammonium sulphate
-* SDS-PAGE
+
 
 <span class="badge badge-secondary">Computer skills</span>
 
@@ -47,16 +60,17 @@
   </thead>
   <tbody>
     <tr>
-      <td>Autoclave</td>
-      <td>Biomedic</td>
+      <td>Nanodrop</td>
+      <td>thermofisher</td>
     </tr>
     <tr>
-          <td>Incubator</td>
-          <td>Labtech</td>
+          <td>rt-PCR/PCR</td>
+          <td>Labman, Promega, Veriti, Takara</td>
      </tr>
     <tr>
          <td>Shaking Incubator</td>
-         <td>Labtech</td>
+         <td>Labtech, thermoScientific</td>
      </tr>
+   
   </tbody>
 </table>
