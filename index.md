@@ -20,6 +20,8 @@
 ## Positions 
  * Front-end developer in DataGrids software ( 2 months)
  * Project assistant at Council for Scientific and Industrial Research Integrative Institute of medicine Jammu (CSIR IIIM Jammu 1 yaer). 
+## PUBLICATIONS
+
 
 ## Skills
 
