@@ -1,4 +1,4 @@
-<h6><span class="badge badge-secondary">New</span> <a href="../_include/code.html">Bioinformatics complementary sequence tool</a></h6>
+<h6><span class="badge badge-secondary">New</span> <a href="./tool.html">Bioinformatics complementary sequence tool</a></h6>
 <h6><span class="badge badge-secondary">New</span> <a href="./tool2.html">Bioinformatics Ligation Calculator</a></h6>
 
 
