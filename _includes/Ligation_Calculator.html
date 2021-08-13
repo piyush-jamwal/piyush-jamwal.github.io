@@ -1,28 +1,33 @@
 <html lang="en">
   <head>
-    <h2>Ligation Calculator</h2>
+    <link rel="stylesheet" type="text/css" href="Ligation_calculator.css" />
   </head>
   <body>
+    <a href="https://piyush-jamwal.github.io/piyushcv/">
+      Designed and created by Piyush Jamwal</a
+    >
     <div id="form">
+      <h2>Ligation Calculator</h2>
       <div>
-        Vector size (in bp)
+        <label for="VecSiz"> Vector size (in bp) </label>
         <input type="text" placeholder="Vector size in bps" id="VecSiz" />
       </div>
       <div>
-        Insert size (in bp)
+        <label for="InsSiz">Insert size (in bp)</label>
+
         <input type="text" placeholder="Insert size in bps" id="InsSiz" />
       </div>
       <div>
-        Amount of Vector taken (in nanograms)
+        <label for="VecAmo">Amount of Vector taken (in nanograms)</label>
+
         <input type="text" placeholder="Vector taken in ng" id="VecAmo" />
       </div>
       <div>
-        Insert to Vector ratio
-        <input type="text" placeholder="Insert " id="Ins" />:<input
-          type="text"
-          placeholder="Vector "
-          id="Vec"
-        />
+        <label for="Ins">Insert to Vector ratio</label>
+
+        <input type="text" placeholder="Insert " id="Ins" /><label for="Vec"
+          >:</label
+        ><input type="text" placeholder="Vector " id="Vec" />
       </div>
       <div>
         <input type="submit" value=" Calculate " onclick="action()" />
@@ -39,6 +44,7 @@
           let vecRat = document.getElementById("Vec").value;
           let vecAmo = document.getElementById("VecAmo").value;
           let insAmo = (insSiz / vecSiz) * (insRat / vecRat) * vecAmo;
+          console.log(insSiz, vecSiz, insRat, vecRat, vecAmo);
           ele.innerHTML = "Amount of insert taken is:" + insAmo;
           form.appendChild(ele);
         }

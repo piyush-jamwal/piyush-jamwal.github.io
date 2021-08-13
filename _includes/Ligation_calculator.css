@@ -1,0 +1,48 @@
+body {
+  background-image: url("../img/DNAlig.jpeg");
+  background-size: cover;
+}
+a {
+  color: aliceblue;
+}
+#form {
+  color: rgb(218, 219, 217);
+  background: black;
+  border: 2px solid red;
+  border-radius: 207px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  min-width: 530px;
+  min-height: 156px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+  flex-wrap: wrap;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+label {
+  padding: 10px 1px;
+  margin: 10px;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+input[type="submit"]:hover {
+  background-color: aqua;
+}
+input[type="button"]:hover {
+  background-color: rgb(207, 86, 42);
+}
+div {
+  display: flex;
+  justify-content: space-evenly;
+}
